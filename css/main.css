@@ -1,0 +1,70 @@
+*{
+	padding: 0;
+	margin:0;
+}
+a{
+	text-decoration: none;
+	color: #6495ED;	
+}
+li{
+	list-style: none;
+}
+input,select,textarea{
+   outline:none;
+   border: none;
+   background: none;/*for ie6*/
+}
+.fl{float:left;}
+.fr{float: right;}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.clearfix{
+	zoom:1;
+}
+#re-logo{
+	background: white;
+}
+body { padding-top: 70px;font-size:16px;}
+
+.navbar-brand img{
+	margin-top:5px;
+	width: 40px;
+	height: 40px;
+	
+}
+.navbar-brand {
+	padding: 0 12px;
+}
+.navbar-nav li{
+   padding:0 10px;
+}
+.re-bottom{
+	background:#e7e7e7;
+	width: 100%;
+	height: 70px;
+
+}
+#re-btn {width:40px; height:40px; position:fixed; right:65px; bottom:90px; display:none; background:url(../images/totop.png) no-repeat left top;}
+		#re-btn:hover {background:url(../images/totop.png) no-repeat 0 -40px;}
+#Chinese p{
+	text-indent: 2em;
+}
+.re-pub-showmore{
+	float: right;
+	margin:30px;
+}
+/*     轮播样式*/
+#carousel-example-generic{
+  margin-bottom: 40px;
+}
+.re-bottom{
+	position:absolute; ;
+}
+.re-bottom p{
+	margin: 10px 0;
+	text-align: center;
+}
+
