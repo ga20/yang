@@ -8,7 +8,7 @@ function showboxshadow(){
   if (boxOntop == 0) {
       navbar.style.boxShadow = "none";
   } else {
-      navbar.style.boxShadow = "0px 2px 10px #888888";
+      navbar.style.cssText = "-moz-box-shadow:0px 2px 10px #888888;box-shadow:0px 2px 10px #888888";
   };
 	});
 }
