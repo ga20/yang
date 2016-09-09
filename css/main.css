@@ -45,7 +45,6 @@ body { padding-top: 70px;font-size:16px;}
 	background:#e7e7e7;
 	width: 100%;
 	height: 70px;
-
 }
 #re-btn {width:40px; height:40px; position:fixed; right:65px; bottom:90px; display:none; background:url(../images/totop.png) no-repeat left top;}
 		#re-btn:hover {background:url(../images/totop.png) no-repeat 0 -40px;}
@@ -69,5 +68,12 @@ body { padding-top: 70px;font-size:16px;}
 }
 .life img {
 	margin: 20px;
+}
+.re-detail{
+   border: 1px solid white;
+}
+.re-detail img{
+    margin: 0 10%
+
 }
 
